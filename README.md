@@ -30,4 +30,4 @@ The HTML file (`index.html`) is structured with several `<div>` elements, each r
 
 Here's a screenshot of what the HTML resume might look like:
 
-![Resume Screenshot](https://raw.githubusercontent.com/nitishkumarpandit-dev/Interactive-Website-Development-Congifyz/task-1/screenshot.png)
+![Resume Screenshot](/screenshot.png)
