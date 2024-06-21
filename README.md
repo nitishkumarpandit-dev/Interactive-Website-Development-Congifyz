@@ -8,13 +8,13 @@ I have successfully completed my internship at Cognifyz Technologies as a Front-
 
 1. **Task 1: Basic HTML PageSteps**
 
-   - Description: Created resume using html
+   - Description: Created resume using HTML
    - Branch: [Task 1 Branch](https://github.com/nitishkumarpandit-dev/Interactive-Website-Development-Congifyz/tree/task-1)
 
 2. **Task 2: Styling with Inline CSS**
 
-   - Description: Brief description of what Task 2 involved.
-   - Branch: [Task 2 Branch](link-to-task-2-branch)
+   - Description: Developed a stylish resume using HTML and Inline CSS.
+   - Branch: [Task 2 Branch](https://github.com/nitishkumarpandit-dev/Interactive-Website-Development-Congifyz/tree/task-2)
 
 3. **Task 3: Responsive Design**
 
