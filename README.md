@@ -11,3 +11,5 @@ This repository hosts a simple blog website created using Bootstrap.
 
 - HTML
 - CSS (Bootstrap)
+
+![Todo App Screenshot](/screenshot.png)
