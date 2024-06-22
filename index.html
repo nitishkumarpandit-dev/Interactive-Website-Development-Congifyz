@@ -1,90 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Responsive Registration Form</title>
-    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="container">
-      <div class="title">Registration</div>
-      <div class="content">
-        <form id="registrationForm">
-          <div class="user-details">
-            <div class="input-box">
-              <span class="details">Full Name</span>
-              <input type="text" id="fullName" placeholder="Enter your name" />
-              <span class="error-message" id="fullName-error"></span>
-            </div>
-            <div class="input-box">
-              <span class="details">Username</span>
-              <input
-                type="text"
-                id="username"
-                placeholder="Enter your username"
-              />
-              <span class="error-message" id="username-error"></span>
-            </div>
-            <div class="input-box">
-              <span class="details">Email</span>
-              <input type="text" id="email" placeholder="Enter your email" />
-              <span class="error-message" id="email-error"></span>
-            </div>
-            <div class="input-box">
-              <span class="details">Phone Number</span>
-              <input
-                type="text"
-                id="phoneNumber"
-                placeholder="Enter your number"
-              />
-              <span class="error-message" id="phoneNumber-error"></span>
-            </div>
-            <div class="input-box">
-              <span class="details">Password</span>
-              <input
-                type="password"
-                id="password"
-                placeholder="Enter your password"
-              />
-              <span class="error-message" id="password-error"></span>
-            </div>
-            <div class="input-box">
-              <span class="details">Confirm Password</span>
-              <input
-                type="password"
-                id="confirmPassword"
-                placeholder="Confirm your password"
-              />
-              <span class="error-message" id="confirmPassword-error"></span>
-            </div>
-          </div>
-          <div class="gender-details">
-            <input type="radio" name="gender" id="dot-1" />
-            <input type="radio" name="gender" id="dot-2" />
-            <input type="radio" name="gender" id="dot-3" />
-            <span class="gender-title">Gender</span>
-            <div class="category">
-              <label for="dot-1">
-                <span class="dot one"></span>
-                <span class="gender">Male</span>
-              </label>
-              <label for="dot-2">
-                <span class="dot two"></span>
-                <span class="gender">Female</span>
-              </label>
-              <label for="dot-3">
-                <span class="dot three"></span>
-                <span class="gender">Prefer not to say</span>
-              </label>
-            </div>
-          </div>
-          <div class="button">
-            <input type="submit" value="Register" />
-          </div>
-        </form>
-      </div>
+      <h1>Todo App</h1>
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add new todo..." />
+        <button type="submit">Add Todo</button>
+      </form>
+      <ul id="todo-list"></ul>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
