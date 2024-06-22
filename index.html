@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Button</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 20px;
+        background-color: #222;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      button {
+        width: 80px;
+        height: 80px;
+        background-color: #402e7a;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        border: none;
+      }
+
+      button:hover {
+        background-color: #3a2480;
+      }
+
+      .color-box {
+        width: 80px;
+        height: 80px;
+        background-color: #402e7a;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="addColorBtn" title="Add colors">+</button>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
